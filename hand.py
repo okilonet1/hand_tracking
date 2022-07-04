@@ -5,7 +5,7 @@ import htmodule as htm
 pTime = 0
 cTime = 0
 cap = cv2.VideoCapture(0)
-detector = htm.handDetector()
+detector = htm.HandDetector()
 
 while True:
     success, img = cap.read()
